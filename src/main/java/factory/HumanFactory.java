@@ -1,24 +1,23 @@
 package factory;
 
-public class ElfFactory extends RaceFactory {
-
+public class HumanFactory extends RaceFactory {
     @Override
     public Archer createArcher() {
-        return new ElfArcher();
+        return null;
     }
 
     @Override
     public Rider createRider() {
-        return new ElfRider();
+        return null;
     }
 
     @Override
     public Warrior createWarrior() {
-        return new ElfWarrior();
+        return null;
     }
 
     @Override
     public Wizard createWizard() {
-        return new ElfWizard();
+        return null;
     }
 }
