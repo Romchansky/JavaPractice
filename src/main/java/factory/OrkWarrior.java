@@ -9,8 +9,8 @@ public class OrkWarrior implements Warrior{
     public OrkWarrior() {
         this.health = health;
         this.brunt = brunt;
-        this.weapon = weapon;
-        this.armor = armor;
+        this.weapon = "";
+        this.armor = "";
     }
 
     @Override

@@ -11,8 +11,8 @@ public class OrkRider implements Rider {
         this.health = health;
         this.brunt = brunt;
         this.weapon = weapon;
-        this.armor = armor;
-        this.mount = mount;
+        this.armor = "";
+        this.mount = "";
     }
 
     @Override

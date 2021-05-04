@@ -10,7 +10,7 @@ public class OrkWizard implements Wizard{
         this.health = health;
         this.magicAbility = magicAbility;
         this.reloadMagicAbility = reloadMagicAbility;
-        this.armor = armor;
+        this.armor = "";
     }
     @Override
     public void saveWizard() {

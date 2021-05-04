@@ -10,9 +10,9 @@ public class OrkArcher implements Archer {
     public OrkArcher() {
         this.health = health;
         this.shotRange = shotRange;
-        this.bowType = bowType;
-        this.arrowType = arrowType;
-        this.armor = armor;
+        this.bowType = "";
+        this.arrowType = "";
+        this.armor = "";
     }
 
     @Override
