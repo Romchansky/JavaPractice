@@ -8,6 +8,6 @@ public class HumanRider implements Rider{
 
     @Override
     public void saveRider() {
-
+        System.out.println("Save Human Rider");
     }
 }

@@ -8,6 +8,6 @@ public class HumanWarrior implements Warrior{
 
     @Override
     public void saveWarrior() {
-
+        System.out.println("Save Human Warrior");
     }
 }

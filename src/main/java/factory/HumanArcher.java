@@ -8,7 +8,7 @@ public class HumanArcher implements Archer{
 
     @Override
     public void saveArcher() {
-
+        System.out.println("Save Human Archer");
     }
 
     

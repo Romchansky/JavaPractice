@@ -8,6 +8,6 @@ public class HumanWizard implements Wizard {
 
     @Override
     public void saveWizard() {
-
+        System.out.println("Save Human Wizard");
     }
 }
