@@ -1,6 +1,8 @@
-package factory;
+package factory.human;
 
-public class HumanRider implements Rider{
+import factory.Rider;
+
+public class HumanRider implements Rider {
     private int protection = 12;
     private int resistance = 9;
     private int steps = 36;

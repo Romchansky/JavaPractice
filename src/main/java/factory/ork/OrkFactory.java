@@ -1,4 +1,6 @@
-package factory;
+package factory.ork;
+
+import factory.*;
 
 public class OrkFactory extends RaceFactory {
     @Override

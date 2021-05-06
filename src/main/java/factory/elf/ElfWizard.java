@@ -1,4 +1,6 @@
-package factory;
+package factory.elf;
+
+import factory.Wizard;
 
 public class ElfWizard implements Wizard {
 

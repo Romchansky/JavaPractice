@@ -1,6 +1,8 @@
-package factory;
+package factory.dwarf;
 
-public class DwarfArcher implements Archer{
+import factory.Archer;
+
+public class DwarfArcher implements Archer {
 
     @Override
     public void saveArcher() {

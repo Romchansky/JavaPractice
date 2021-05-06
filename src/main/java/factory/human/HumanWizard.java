@@ -1,4 +1,6 @@
-package factory;
+package factory.human;
+
+import factory.Wizard;
 
 public class HumanWizard implements Wizard {
     private int protection = 9;

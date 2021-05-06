@@ -1,6 +1,8 @@
-package factory;
+package factory.dwarf;
 
-public class DwarfWarrior implements Warrior{
+import factory.Warrior;
+
+public class DwarfWarrior implements Warrior {
     @Override
     public void saveWarrior() {
         System.out.println("High! A'm a DwarfWarrior");

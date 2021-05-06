@@ -1,28 +1,28 @@
-package factory;
+package factory.ork;
 
-public class OrkRider implements Rider {
+import factory.Warrior;
+
+public class OrkWarrior implements Warrior {
     private int health;
     private int brunt;
     private String weapon;
     private String armor;
-    private String mount;
 
-    public OrkRider() {
+    public OrkWarrior() {
         this.health = health;
         this.brunt = brunt;
-        this.weapon = weapon;
+        this.weapon = "";
         this.armor = "";
-        this.mount = "";
     }
 
     @Override
-    public void saveRider() {
-        System.out.println("Create new Ork Rider"+
+    public void saveWarrior() {
+        System.out.println("Create new OrkWarrior"+
                 "health"+health+
                 "brunt"+brunt+
                 "weapon"+weapon+
-                "armor"+armor+
-                "mount"+mount);
+                "armor"+armor);
+
 
     }
 }

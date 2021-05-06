@@ -1,4 +1,6 @@
-package factory;
+package factory.elf;
+
+import factory.Rider;
 
 public class ElfRider implements Rider {
 

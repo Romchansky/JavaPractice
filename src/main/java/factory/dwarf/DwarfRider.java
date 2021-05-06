@@ -1,6 +1,8 @@
-package factory;
+package factory.dwarf;
 
-public class DwarfRider implements Rider{
+import factory.Rider;
+
+public class DwarfRider implements Rider {
     @Override
     public void saveRider() {
         System.out.println("High! A'm a DwarfRider");

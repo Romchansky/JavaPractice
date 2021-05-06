@@ -1,4 +1,6 @@
-package factory;
+package factory.dwarf;
+
+import factory.*;
 
 public class DwarfFactory extends RaceFactory {
     @Override

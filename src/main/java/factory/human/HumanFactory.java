@@ -1,4 +1,6 @@
-package factory;
+package factory.human;
+
+import factory.*;
 
 public class HumanFactory extends RaceFactory {
     @Override

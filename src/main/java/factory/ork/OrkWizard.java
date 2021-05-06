@@ -1,6 +1,8 @@
-package factory;
+package factory.ork;
 
-public class OrkWizard implements Wizard{
+import factory.Wizard;
+
+public class OrkWizard implements Wizard {
     private int health;
     private String magicAbility;
     private int reloadMagicAbility;

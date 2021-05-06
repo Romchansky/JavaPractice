@@ -1,6 +1,8 @@
-package factory;
+package factory.human;
 
-public class HumanWarrior implements Warrior{
+import factory.Warrior;
+
+public class HumanWarrior implements Warrior {
     private int protection = 13;
     private int resistance = 11;
     private int steps = 36;

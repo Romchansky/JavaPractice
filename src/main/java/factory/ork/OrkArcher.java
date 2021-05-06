@@ -1,4 +1,6 @@
-package factory;
+package factory.ork;
+
+import factory.Archer;
 
 public class OrkArcher implements Archer {
     private int health;

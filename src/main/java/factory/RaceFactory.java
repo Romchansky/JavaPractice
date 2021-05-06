@@ -1,5 +1,10 @@
 package factory;
 
+import factory.dwarf.DwarfFactory;
+import factory.elf.ElfFactory;
+import factory.human.HumanFactory;
+import factory.ork.OrkFactory;
+
 import static factory.Main.SELECTED_RACE;
 
 public abstract class RaceFactory {

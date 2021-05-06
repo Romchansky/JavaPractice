@@ -1,6 +1,8 @@
-package factory;
+package factory.human;
 
-public class HumanArcher implements Archer{
+import factory.Archer;
+
+public class HumanArcher implements Archer {
     private int protection = 9;
     private int resistance = 8;
     private int steps = 28;

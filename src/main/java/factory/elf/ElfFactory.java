@@ -1,4 +1,6 @@
-package factory;
+package factory.elf;
+
+import factory.*;
 
 public class ElfFactory extends RaceFactory {
 

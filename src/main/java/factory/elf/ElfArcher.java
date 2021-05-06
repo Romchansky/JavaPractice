@@ -1,17 +1,19 @@
-package factory;
+package factory.elf;
 
-public class ElfWarrior implements Warrior {
+import factory.Archer;
 
-    private int health = 43;
+public class ElfArcher implements Archer {
+
+    private int health = 32;
     private int resistance = 9;
     private int speed = 28;
-    private int defense = 11;
-    private int strength = 17;
+    private int defense = 8;
+    private int strength = 10;
 
 
     @Override
-    public void saveWarrior() {
-        System.out.println("Hello I'm Elf Warrior, my characteristics: " +
+    public void saveArcher() {
+        System.out.println("Hello I'm Elf Archer, my characteristics: " +
                 "health=" + health +
                 ", resistance=" + resistance +
                 ", speed=" + speed +
