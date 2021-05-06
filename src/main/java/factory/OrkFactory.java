@@ -3,21 +3,18 @@ package factory;
 public class OrkFactory extends RaceFactory {
     @Override
     public Archer createArcher() {
-        return null;
+        return new OrkArcher();
     }
-
     @Override
     public Rider createRider() {
-        return null;
+        return new OrkRider ();
     }
-
     @Override
     public Warrior createWarrior() {
-        return null;
+        return new OrkWarrior();
     }
-
     @Override
     public Wizard createWizard() {
-        return null;
+        return new OrkWizard();
     }
 }

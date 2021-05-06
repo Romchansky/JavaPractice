@@ -3,21 +3,19 @@ package factory;
 public class DwarfFactory extends RaceFactory {
     @Override
     public Archer createArcher() {
-        return null;
+        return new DwarfArcher();
     }
 
     @Override
-    public Rider createRider() {
-        return null;
-    }
+    public Rider createRider() {return new DwarfRider();    }
 
     @Override
     public Warrior createWarrior() {
-        return null;
+        return new DwarfWarrior();
     }
 
     @Override
     public Wizard createWizard() {
-        return null;
+        return new DwarfWizard();
     }
 }

@@ -3,21 +3,32 @@ package factory;
 public class HumanFactory extends RaceFactory {
     @Override
     public Archer createArcher() {
-        return null;
+
+
+        return new HumanArcher();
+
     }
 
     @Override
     public Rider createRider() {
-        return null;
+
+        return new HumanRider();
+
     }
 
     @Override
     public Warrior createWarrior() {
-        return null;
+
+
+        return new HumanWarrior();
+
     }
 
     @Override
     public Wizard createWizard() {
-        return null;
+
+
+        return new HumanWizard();
+
     }
 }
