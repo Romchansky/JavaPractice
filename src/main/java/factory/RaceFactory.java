@@ -18,7 +18,6 @@ public abstract class RaceFactory {
             case "Ork": return new OrkFactory();
             case "Elf": return new ElfFactory();
             case "Dwarf": return new DwarfFactory();
-            case "Human": return  new HumanFactory();
             default: throw new RuntimeException("This race is not found");
         }
     }
