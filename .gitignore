@@ -1,3 +1,9 @@
+.idea
+.iws
+.iml
+target
+.DS_STORE /src/main/resources/log
+
 # Compiled class file
 *.class
 
