@@ -3,27 +3,23 @@ package factory.ork;
 import factory.Archer;
 
 public class OrkArcher implements Archer {
-    private int health;
-    private int shotRange;
-    private String bowType;
-    private String arrowType;
-    private String armor;
 
-    public OrkArcher() {
-        this.health = health;
-        this.shotRange = shotRange;
-        this.bowType = "";
-        this.arrowType = "";
-        this.armor = "";
-    }
+    private int health = 5;
+    private int resistance = 3;
+    private int speed = 26;
+    private int protection = 2;
+    private int strength = 4;
+
+
 
     @Override
     public void saveArcher() {
-        System.out.println("Create new OrkArcher"+
-                "health"+health+
-                "shotRange"+shotRange+
-                "bowType"+bowType+
-                "arrowType"+arrowType+
-                "armor"+armor);
+        System.out.println("Hello I'm Ork Archer, my characteristics:  " +
+                "health=" + health +
+                ", resistance=" + resistance +
+                ", speed=" + speed +
+                ", protection=" + protection +
+                ", strength=" + strength +
+                '}');
     }
 }

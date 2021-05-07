@@ -7,7 +7,7 @@ public class ElfWarrior implements Warrior {
     private int health = 43;
     private int resistance = 9;
     private int speed = 28;
-    private int defense = 11;
+    private int protection = 11;
     private int strength = 17;
 
 
@@ -17,7 +17,7 @@ public class ElfWarrior implements Warrior {
                 "health=" + health +
                 ", resistance=" + resistance +
                 ", speed=" + speed +
-                ", defense=" + defense +
+                ", defense=" + protection +
                 ", strength=" + strength);
     }
 }

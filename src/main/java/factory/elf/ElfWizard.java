@@ -7,7 +7,7 @@ public class ElfWizard implements Wizard {
     private int health = 36;
     private int resistance = 12;
     private int speed = 28;
-    private int defense = 9;
+    private int protection = 9;
     private int strength = 13;
 
 
@@ -17,7 +17,7 @@ public class ElfWizard implements Wizard {
                 "health=" + health +
                 ", resistance=" + resistance +
                 ", speed=" + speed +
-                ", defense=" + defense +
+                ", defense=" + protection +
                 ", strength=" + strength);
     }
 }

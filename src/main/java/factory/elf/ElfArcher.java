@@ -7,7 +7,7 @@ public class ElfArcher implements Archer {
     private int health = 32;
     private int resistance = 9;
     private int speed = 28;
-    private int defense = 8;
+    private int protection = 8;
     private int strength = 10;
 
 
@@ -17,7 +17,7 @@ public class ElfArcher implements Archer {
                 "health=" + health +
                 ", resistance=" + resistance +
                 ", speed=" + speed +
-                ", defense=" + defense +
+                ", defense=" + protection +
                 ", strength=" + strength);
     }
 }
