@@ -3,23 +3,22 @@ package factory.ork;
 import factory.Wizard;
 
 public class OrkWizard implements Wizard {
-    private int health;
-    private String magicAbility;
-    private int reloadMagicAbility;
-    private String armor;
 
-    public OrkWizard() {
-        this.health = health;
-        this.magicAbility = magicAbility;
-        this.reloadMagicAbility = reloadMagicAbility;
-        this.armor = "";
-    }
-    @Override
+    private int health = 13;
+    private int resistance = 7;
+    private int speed = 28;
+    private int protection = 8;
+    private int strength = 22;
+
+
+        @Override
     public void saveWizard() {
-        System.out.println("Create new OrkWizard"+
-                "health"+health+
-                "magicAbility"+magicAbility +
-                "reloadMagicAbility"+reloadMagicAbility+
-                "armor"+armor);
+            System.out.println("Hello I'm Ork Rider, my characteristics:" +
+                    "health=" + health +
+                    ", resistance=" + resistance +
+                    ", speed=" + speed +
+                    ", protection=" + protection +
+                    ", strength=" + strength +
+                    '}');
     }
 }

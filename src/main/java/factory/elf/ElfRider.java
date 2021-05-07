@@ -7,7 +7,7 @@ public class ElfRider implements Rider {
     private int health = 65;
     private int resistance = 12;
     private int speed = 30;
-    private int defense = 12;
+    private int protection = 12;
     private int strength = 15;
 
 
@@ -18,7 +18,7 @@ public class ElfRider implements Rider {
                 "health=" + health +
                 ", resistance=" + resistance +
                 ", speed=" + speed +
-                ", defense=" + defense +
+                ", defense=" + protection +
                 ", strength=" + strength );
     }
 }
