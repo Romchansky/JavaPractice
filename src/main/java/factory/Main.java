@@ -2,7 +2,7 @@ package factory;
 
 public class Main {
 
-    public final static String SELECTED_RACE = "Ork";
+    public final static String SELECTED_RACE = "Dwarf";
 
     public static void main(String[] args) {
 
