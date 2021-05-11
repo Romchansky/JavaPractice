@@ -5,6 +5,8 @@ import factory.elf.ElfFactory;
 import factory.human.HumanFactory;
 import factory.ork.OrkFactory;
 
+import static factory.Main.SELECTED_RACE;
+
 public abstract class RaceFactory {
 
     private static RaceFactory race;
@@ -12,18 +14,18 @@ public abstract class RaceFactory {
     protected RaceFactory() {};
 
     public static RaceFactory of() {
-        if(race == null ) race = selectCharacter();
+        if(race == null ) race = selectCharacter(SELECTED_RACE);
         return race;
     }
 
-    private static RaceFactory selectCharacter() {
-        return switch (Main.SELECTED_RACE) {
-            case "Ork" -> new OrkFactory();
-            case "Elf" -> new ElfFactory();
-            case "Dwarf" -> new DwarfFactory();
-            case "Human" -> new HumanFactory();
-            default -> throw new RuntimeException("This race is not found");
-        };
+    private static RaceFactory selectCharacter(String race) {
+        switch (race) {
+            case "Ork": return new OrkFactory();
+            case "Elf": return new ElfFactory();
+            case "Dwarf": return new DwarfFactory();
+            case "Human": return new HumanFactory();
+            default: throw new RuntimeException("This race is not found");
+        }
     }
 
     public abstract Archer createArcher();
